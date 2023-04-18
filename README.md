@@ -4,7 +4,7 @@
 
 Esto es Tails: https://tails.boum.org/
 
-Realizada con reveal: [https://github.com/hakimel/reveal.js/](https://github.com/hakimel/reveal.js/)
+Realizada con revealjs: [https://github.com/hakimel/reveal.js/](https://github.com/hakimel/reveal.js/)
 
 
 ## Estructura archivos
