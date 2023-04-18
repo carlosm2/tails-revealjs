@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="generator" content="reveal.js">
+    <meta name="author" content="original intrigeri, adaptación cacu" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Tails  - Privacidad para todes en cualquier sitio</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section id="intro">
+					<h3>Privacidad para todes en cualquier sitio</h3>
+					<p><img src="img/tails-logo-flat-inverted.png" alt="logo tails"/></p>
+					<a href="https://tails.boum.org/">tails.boum.org</a>
+				</section>
+
+				<section data-background="img/bg_tailsn.png">
+				</section>
+
+				<section>
+					<h2>¿Qué es Tails?</h2>
+					<h4>The Amnesic Incognito Live System</h4>
+					<a href="https://tails.boum.org/">tails.boum.org</a>
+				</section>
+
+							<!-- sección de markdown desde archivo externo llamado tierraprometida.md -->
+							<section data-markdown="tails_intro.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+							<!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
+							<section data-markdown data-separator="---">
+						  </section>
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
