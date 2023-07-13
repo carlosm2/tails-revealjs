@@ -6,6 +6,10 @@ Esto es Tails: https://tails.boum.org/
 
 Realizada con revealjs: [https://github.com/hakimel/reveal.js/](https://github.com/hakimel/reveal.js/)
 
+Versión Web: [https://cacu.tech/tails/](https://cacu.tech/tails/)
+
+Versión Web Onion: [http://www.orhecoctbqfeuftzycwrgg6rbf2tmsexnh7okufstc67r6fpnagjorid.onion/slides/tails/](http://www.orhecoctbqfeuftzycwrgg6rbf2tmsexnh7okufstc67r6fpnagjorid.onion/slides/tails/)
+
 
 ## Estructura archivos
 
