@@ -21,6 +21,10 @@ Versión Web Onion: [http://www.orhecoctbqfeuftzycwrgg6rbf2tmsexnh7okufstc67r6fp
 
 `index.html` -> nuestro archivo maestro
 
+## Pendiente
+
+[ ] Actualizar versión de reveal con los colores Tails
+
 ## Licencia 
 
 Licencia de producción de pares: [https://endefensadelsl.org/ppl_deed_es.html](https://endefensadelsl.org/ppl_deed_es.html)
