@@ -23,7 +23,7 @@ Versión Web Onion: [http://www.orhecoctbqfeuftzycwrgg6rbf2tmsexnh7okufstc67r6fp
 
 ## Pendiente
 
-[ ] Actualizar versión de reveal con los colores Tails
+- [ ] Actualizar versión de reveal con los colores Tails
 
 ## Licencia 
 
