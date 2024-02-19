@@ -2,7 +2,7 @@
 
 ![tails](https://cacu.tech/img/tailspresentacion.png)
 
-Esto es Tails: https://tails.boum.org/
+Esto es Tails: https://tails.net/
 
 Realizada con revealjs: [https://github.com/hakimel/reveal.js/](https://github.com/hakimel/reveal.js/)
 
