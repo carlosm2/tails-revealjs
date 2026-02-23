@@ -13,7 +13,7 @@
 * Usa el internet de manera anónima y evade la censura:
   todas las conexiones a internet son forzadas a salir a tráves de la red Tor.
 * No deja rastros en la computadora que estas usando a menos que explicitamente lo pidas.
-* Usa las más modernas herramientas de encriptación para cifrar tus archivos, emails y mensajería instantánea.
+* Usa herramientas de **software libre** para cifrado de tus archivos, correo y mensajería instantánea.
 
 
 
@@ -84,28 +84,29 @@ Tor te protege redirigiendo tus comunicaciones alrededor de una red distribuida 
 
 
 
-#### Otras características
+### Otras caracteristicas
 
-* Existe desde el 2009
+* Existe desde el 2009 (ya 10 años)
 * Traducido en muchos idiomas (ES, FR, IT, ENG, FA, DE. PT)
 * Software libre, desarrollo abierto y publico:  
-* Documentación del diseño: <https://tails.boum.org/contribute/design/>
+* Documentación del diseño
+* Transparencia
 
 Y... ¿funciona?
 
 
 
-#### de acuerdo a la NSA, si :  
+#### de acuerdo a la NSA, si :  
 
-![](img/tails-fop.png)
-<small>[https://freedom.press/news-advocacy/help-support-the-little-known-privacy-tool-that-has-been-critical-to-journalists-reporting-on-the-nsa/](https://freedom.press/news-advocacy/help-support-the-little-known-privacy-tool-that-has-been-critical-to-journalists-reporting-on-the-nsa/)</small>
-note: Freedom of press nota sobre tails y Laua Poitras , Citizen Four
+![](img/intercept.png)
+
+<small>[https://theintercept.com/2014/10/28/smuggling-snowden-secrets](https://theintercept.com/2014/10/28/smuggling-snowden-secrets/)<small>
 
 
 
 ### En cualquier lugar
 
-Usar Tails en una computadora no lo altera, ni depende del sistema operativo instalado. Así que puedes usarlo en tu computadora, en la de un amig@, o una en tu biblioteca local.
+Usar **Tails** en una computadora no lo altera, ni depende del sistema operativo instalado. Así que puedes usarlo en tu computadora, en la de un@ amig@, o una en tu biblioteca local.
 
 Después de apagar Tails, la computadora iniciará de nuevo con su sistema operativo habitual."
 
@@ -113,10 +114,9 @@ Después de apagar Tails, la computadora iniciará de nuevo con su sistema opera
 
 ### Amnésico
 
-Tails está configurado con especial cuidado de no usar los discos duros de la computadora, incluso si hay espacio intercambiado en ellos. El único espacio de almacenamiento usado por Tails está en la memoria RAM, que se borra automáticamente cuando se apaga la computadora.
+**Tails** está configurado con especial cuidado de no usar los discos duros de la computadora, incluso si hay espacio intercambiado en ellos. El único espacio de almacenamiento usado por **Tails** está en la memoria RAM, que se borra automáticamente cuando se apaga la computadora.
 
-Así que no dejarás ningún rastro en la computadora del sistema Tails en sí, ni de para qué lo usaste.
-Es por eso que llamamos a Tails **amnésico**
+Así que no dejarás ningún rastro en la computadora del sistema Tails en sí, ni de para qué lo usaste. Es por eso que llamamos a Tails **amnésico**
 
 
 
@@ -124,21 +124,40 @@ Es por eso que llamamos a Tails **amnésico**
 
 Esto te permite trabajar con **documentos sensibles** en **cualquier** computadora, y te protege de la recuperación de información después de apagar. Claro, aun así puedes guardar de forma explícita documentos específicos en otra USB, o en un disco duro extraíble y sacarlos para un uso futuro.
 
-Tails además contiene una selección de herramientas para proteger tus datos usando criptografía fuerte:
+Tails además contiene una selección de herramientas para proteger tus datos usando criptografía fuerte.
 
 
 
+## Nuestra hipotesis
 
-## Colabora
+A menudo la usabilidad importa mas que "solamente" la seguridad.
 
+Hacer una "linea de base" del nivel de seguridad (privacidad, anonimato) muy accesible.  
+
+⇒ Tails es ampliamente usado  
+⇒ Enfocado en poder dar mantenimiento, continuidad.
+⇒ Energía ↗ para incrementar la seguridad sin disminuir la usabilidad.
+
+
+## Ejemplos de aportes "upstream"
+
+* AppArmor
+* libvirt
+* Seahorse
+* Debian
+* Debian Live
+* fix OTR downgrade → v1
+
+
+### Tails te necesita, para...
 
 
 
 ### Traducción
 
-Las traductoras/localizadoras permiten que mas personas alrededor del mundo usen Tails.
+Las personas traductoras permiten que mas personas alrededor del mundo usen Tails.
 
-[tails.boum.org/contribute/how/translate](https://tails.boum.org/contribute/how/translate/)
+[tails.boum.org/contribute/how/translate](https://tails.net/contribute/how/translate/)
 
 Lista de correo traductores:
 [mailman.boum.org/listinfo/tails-l10n](https://mailman.boum.org/listinfo/tails-l10n)
@@ -148,49 +167,64 @@ Lista de correo traductores en español:
 
 
 
+### Documentación
+
+Las personas que contribuyen pueden hacer que Tails sea accesible a más personas.
+
+<https://tails.net/contribute/how/documentation/>
+
+
+
+### Tests
+
+Las personas que prueban versiónes beta ayudan a mejorar la calidad de Tails.
+
+<https://tails.net/contribute/how/testing/>
+
+
+
+
+## Diseño
+
+Les diseñadores web y gráficos pueden hacer que Tails sea más fácil de usar y más atractivo.
+
+<https://tails.net/contribute/how/website/>
+
+<https://tails.net/contribute/how/graphics/>
+
+
+
+## Usabiidad
+
+<https://tails.boum.org/contribute/how/user_interface/>
+
+
+
+## Debian
+
+Se puede mejorar Tails (y otros derivados de Debian contribuyendo a Debian).
+
+<https://tails.net/contribute/how/debian/>
+
+* AppArmor (<https://wiki.debian.org/AppArmor/Contribute>)
+* &#35;6507: Package our OpenPGP applet for Debian
+* &#35;7352: Backport ruby-libvirt 0.5+ for Wheezy
+
+
+
+### Dinero
+
+Those who have too much money can speed up the development of Tails.
+
+<https://tails.boum.org/contribute/how/donate/>
+
+
+
 ### Habla con nosotras
 
-* Lista de correo desarroladoras: **<tails-dev@boum.org>**
-* Lista de correo traductoras: **<tails-l10n@boum.org>**
-* Lista de correo testing: **<tails-testers@boum.org>**
-* Soporte, cifrado: **<tails-support-private@boum.org>**
-* XMPP **servidora: chat.disroot.org, sala: tails**
-
-
-
-### Fuente
-
-comparte, reutiliza, remixea esta presentación
-
-codigo fuente: [https://alambique.org/carlosm2/tails](https://alambique.org/carlosm2/tails)
-
-
-
-#### Licencia de producción de pares: 
-
-![](img/lpp.png)
-
-[<small>https://endefensadelsl.org/ppl_deed_es.html](https://endefensadelsl.org/ppl_deed_es.html)</small>
-
-
-
-### versión cebolla
-
-Disponible en Onion
-
-<small>[http://www.orhecoctbqfeuftzycwrgg6rbf2tmsexnh7okufstc67r6fpnagjorid.onion/slides/tails/](http://www.orhecoctbqfeuftzycwrgg6rbf2tmsexnh7okufstc67r6fpnagjorid.onion/slides/tails/)</small> 
-
-
-
-### Creditos
-
-Basado en la presentación de intrigueri:
-
-https://tails.boum.org/contribute/how/promote/material/slides/Roma-Uni_Sapienza-20150127/Tails/
-
-La mayor parte de las ilustraciones son de la página de https://tails.boum.org/ y de https://tor.derechosdigitales.org/
-
-cacu (carlosm2@riseup.net / carlos@tierracomun.org)
-
-
-
+* Development mailing-list: **<tails-dev@boum.org>**
+* Mailing-list for translators: **<tails-l10n@boum.org>**
+* Early testers mailing-list: **<tails-testers@boum.org>**
+* Private and encrypted mailing-list: **<tails@boum.org>**
+* IRC: see <https://tails.boum.org/contribute/>
+* Web: **<https://tails.boum.org/>**
