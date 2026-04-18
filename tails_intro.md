@@ -129,7 +129,6 @@ Tails además contiene una selección de herramientas para proteger tus datos us
 
 
 ## Nuestra hipotesis
-
 A menudo la usabilidad importa mas que "solamente" la seguridad.
 
 Hacer una "linea de base" del nivel de seguridad (privacidad, anonimato) muy accesible.  
@@ -137,6 +136,7 @@ Hacer una "linea de base" del nivel de seguridad (privacidad, anonimato) muy acc
 ⇒ Tails es ampliamente usado  
 ⇒ Enfocado en poder dar mantenimiento, continuidad.
 ⇒ Energía ↗ para incrementar la seguridad sin disminuir la usabilidad.
+
 
 
 ## Ejemplos de aportes "upstream"
@@ -147,6 +147,7 @@ Hacer una "linea de base" del nivel de seguridad (privacidad, anonimato) muy acc
 * Debian
 * Debian Live
 * fix OTR downgrade → v1
+
 
 
 ### Tails te necesita, para...
